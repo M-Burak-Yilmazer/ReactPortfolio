@@ -1,12 +1,48 @@
 .productCard{
     background-color: #fb5607;
     width:300px;
-    height: 400px;
+    height: 420px;
     text-align:center;
     padding:1rem;
     border-radius: 20px;
+    box-shadow:3px 3px 3px black;
+    & *{
+        margin:0.2rem;
+        color:#1d3557
+    }
 
 }
 .cardImage{
     border-radius: 50%;
+   border:3px solid white;
+
+}
+.smallBtn{
+    border:none;
+    background-color: #ff006e;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px black;
+    margin-right: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    &:hover{
+        opacity: 0.5;
+        cursor:pointer;
+    }
+
+}
+.largeBtn{
+    border:none;
+    background-color: #8338ec;
+    color:white;
+    padding:5px 20px;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px black;
+      font-family: 'Courier New', Courier, monospace;
+     &:hover{
+        opacity: 0.5;
+        cursor:pointer;
+    }
+
 }
